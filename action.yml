@@ -11,8 +11,8 @@ input:
   email:
     description: The persons email
     required: true
-    #default: "${{ github.actor }}@localhost"
+    default: "${{ github.actor_id }}@localhost"
   name:
     description: The persons name
     required: true
-    #default: "${{ github.actor }}"
+    default: "${{ github.actor_id }}"
